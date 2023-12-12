@@ -1,0 +1,22 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Alyssia Broncano"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - CV.qmd
+
+format:
+  html:
+    theme: minty
+    css: styles.css
+    toc: true
+    page-layout: full
+    embed-resources: true
+
+editor: visual
